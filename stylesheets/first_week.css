@@ -1,0 +1,213 @@
+body {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+button {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px/25px Arial, sans-serif;
+ 
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+ 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+ 
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+header {
+    background: white;
+    vertical-align: middle;
+}
+
+header button {
+    border: solid 1px;
+    background: white;
+}
+
+header img {
+    vertical-align: middle;
+    height: 30px;
+}
+
+header nav {
+    display:inline-block;
+    padding: 10px;
+    margin: 0 10px;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+section {
+    /*vertical-align: middle;*/
+}
+
+footer {
+    padding-top: 15px;
+    height: 35px;
+    background: black;
+}
+
+a {
+    color: black;
+}
+
+.content {
+    text-align: left;
+}
+
+#tutor {
+    background-image: url('../images/house.jpeg');
+    background-size: cover;
+}
+
+#tutor button {
+    width: 130px;
+    height: 30px;
+    border: solid 1px;
+    color: white;
+    background-color:rgba(0,152,50,0.7);
+}
+
+#mission {
+    color: black;
+    background: white;
+}
+
+#mission p {
+    color: black;
+    background: white;
+    width: 65%;
+    margin: 15px auto;
+}
+
+#se1 {
+    background: green;
+}
+
+#se2 {
+    background: orange;
+}
+
+#se3 {
+    background: blue;
+}
+
+#se1 div {
+    vertical-align: middle;
+    display: inline-block;
+    width: 40%;
+}
+
+#se1 div#anchor {
+    display: inline-block;
+    width: 10%;
+}
+
+#se1 div#anchor a {
+    text-decoration: none;
+    display: block;
+    border-radius: 7px;
+    border: white solid 7px;
+    margin: 5px;
+    width: 0;
+}
+
+#se2 div {
+    vertical-align: middle;
+    display: inline-block;
+    width: 40%;
+}
+
+#se3 div {
+    vertical-align: middle;
+    display: inline-block;
+    width: 45%;
+}
+
+#progress {
+    color: black;
+}
+
+
+.price_block {
+    padding: 30px;
+    border: solid 1px gray;
+    display: inline-block;
+    margin: 10px;
+}
+
+.price_block div {
+    margin: 10px;
+    font-size: 35px;
+}
+
+.price_block p {
+    margin: 10px;
+}
+
+.price_block.block1 {
+    color: green;
+}
+
+.price_block.block2 {
+    color: orange;
+}
+
+.price_block.block3 {
+    color: blue;
+}
+
+.first_section {
+    padding-top: 100px;
+    height: 200px;
+}
+
+.last_section {
+    padding: 70px;
+    height: 240px;
+}
+
+.middle_section {
+    padding-top: 60px;
+    height: 250px;
+}
+
+.small_section {
+    padding-top: 50px;
+    height: 200px;
+}
+
+#mission button {
+    width: 130px;
+    height: 30px;
+    border: solid 1px;
+    background: orange;
+}
+
+#se1 button, #se2 button, #se3 button {
+    color: white;
+    width: 130px;
+    height: 30px;
+    border: solid 1px;
+    background: gray;
+}
