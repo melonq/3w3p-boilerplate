@@ -4,31 +4,6 @@ body {
     color: white;
 }
 
-button {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px/25px Arial, sans-serif;
- 
-    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
- 
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
- 
-    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
-    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
-    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
- 
-    -webkit-transition: all 0.15s ease;
-    -moz-transition: all 0.15s ease;
-    -o-transition: all 0.15s ease;
-    -ms-transition: all 0.15s ease;
-    transition: all 0.15s ease;
-}
-
 header {
     background: white;
     vertical-align: middle;
@@ -83,7 +58,7 @@ a {
 #tutor button {
     width: 130px;
     height: 30px;
-    border: solid 1px;
+    border: solid 0;
     color: white;
     background-color:rgba(0,152,50,0.7);
 }
@@ -101,15 +76,15 @@ a {
 }
 
 #se1 {
-    background: green;
+    background: rgb(146, 209, 177);
 }
 
 #se2 {
-    background: orange;
+    background: rgb(255, 205, 99);
 }
 
 #se3 {
-    background: blue;
+    background: rgb(129, 168, 205);
 }
 
 #se1 div {
@@ -166,15 +141,15 @@ a {
 }
 
 .price_block.block1 {
-    color: green;
+    color: rgb(146, 209, 177);
 }
 
 .price_block.block2 {
-    color: orange;
+    color: rgb(255, 205, 99);;
 }
 
 .price_block.block3 {
-    color: blue;
+    color: rgb(129, 168, 205);
 }
 
 .first_section {
@@ -200,14 +175,14 @@ a {
 #mission button {
     width: 130px;
     height: 30px;
-    border: solid 1px;
+    border: solid 0;
     background: orange;
 }
 
 #se1 button, #se2 button, #se3 button {
-    color: white;
     width: 130px;
     height: 30px;
-    border: solid 1px;
-    background: gray;
+    border: solid 0;
+    color: white;
+    background: rgba(0,0,0,0.15);
 }
