@@ -14,8 +14,16 @@ header button {
     background: white;
 }
 
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
 header img {
+    border-radius: 0;
     vertical-align: middle;
+    width: auto;
     height: 30px;
 }
 
