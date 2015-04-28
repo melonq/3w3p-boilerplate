@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("./fonts_second/icomoon.eot?-k8taie");
+  src: url("./fonts_second/icomoon.eot?#iefix-k8taie") format("embedded-opentype"), url("./fonts_second/icomoon.woff?-k8taie") format("woff"), url("./fonts_second/icomoon.ttf?-k8taie") format("truetype"), url("./fonts_second/icomoon.svg?-k8taie#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 13, ../sass/second_week.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 27, ../sass/second_week.scss */
+.icon-Tastemakers:before {
+  content: "\e9a3";
+}
+
+/* line 31, ../sass/second_week.scss */
+.icon-Blog:before {
+  content: "\e91f";
+}
+
+/* line 35, ../sass/second_week.scss */
+.icon-camera:before {
+  content: "\e90f";
+}
+
+/* line 39, ../sass/second_week.scss */
+.icon-envelop:before {
+  content: "\e945";
+}
+
+/* line 43, ../sass/second_week.scss */
+.icon-clipboard:before {
+  content: "\e9b8";
+}
+
+/* line 47, ../sass/second_week.scss */
+.icon-reddit:before {
+  content: "\eac7";
+}
+
+/* line 51, ../sass/second_week.scss */
+.icon-facebook:before {
+  content: "\ea8c";
+}
+
+/* line 55, ../sass/second_week.scss */
+.icon-twitter:before {
+  content: "\ea91";
+}
+
+/* line 59, ../sass/second_week.scss */
+aside {
+  float: left;
+  padding: 0 20px;
+}
+/* line 63, ../sass/second_week.scss */
+aside a.logo {
+  padding: 15px;
+}
+/* line 65, ../sass/second_week.scss */
+aside a.logo img {
+  width: 100px;
+}
+/* line 70, ../sass/second_week.scss */
+aside ul {
+  padding-left: 0px;
+  font-style: italic;
+}
+/* line 74, ../sass/second_week.scss */
+aside ul span {
+  display: inline-block;
+  height: 10px;
+}
+/* line 79, ../sass/second_week.scss */
+aside ul li {
+  padding: 10px 20px;
+  list-style-type: none;
+}
+/* line 83, ../sass/second_week.scss */
+aside ul li a {
+  color: #34ac98;
+  text-decoration: none;
+  padding: 5px;
+}
+/* line 91, ../sass/second_week.scss */
+aside div {
+  padding: 5px 20px;
+}
+/* line 95, ../sass/second_week.scss */
+aside hr {
+  width: 169px;
+  border-style: dashed;
+}
+/* line 100, ../sass/second_week.scss */
+aside button {
+  height: 30px;
+  width: 175px;
+  margin: 5px 0 30px 0;
+  font-style: italic;
+  font-size: 13px;
+  color: #34ac98;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background-color: white;
+}
+/* line 110, ../sass/second_week.scss */
+aside button span {
+  padding: 5px;
+}
+/* line 115, ../sass/second_week.scss */
+aside p {
+  font-style: italic;
+  padding: 10px 20px 0 20px;
+  margin-bottom: 10px;
+  width: 175px;
+}

@@ -1,0 +1,121 @@
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('./fonts_second/icomoon.eot?-k8taie');
+  src:url('./fonts_second/icomoon.eot?#iefix-k8taie') format('embedded-opentype'),
+  url('./fonts_second/icomoon.woff?-k8taie') format('woff'),
+  url('./fonts_second/icomoon.ttf?-k8taie') format('truetype'),
+  url('./fonts_second/icomoon.svg?-k8taie#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-Tastemakers:before {
+  content: "\e9a3";
+}
+
+.icon-Blog:before {
+  content: "\e91f";
+}
+
+.icon-camera:before {
+    content: "\e90f";
+}
+
+.icon-envelop:before {
+    content: "\e945";
+}
+
+.icon-clipboard:before {
+    content: "\e9b8";
+}
+
+.icon-reddit:before {
+    content: "\eac7";
+}
+
+.icon-facebook:before {
+    content: "\ea8c";
+}
+
+.icon-twitter:before {
+    content: "\ea91";
+}
+
+aside {
+    float: left;
+    padding: 0 20px;
+
+    a.logo {
+        padding: 15px;
+        img {
+            width: 100px;
+        }
+    }
+
+    ul {
+        padding-left: 0px;
+        font-style: italic;
+
+        span {
+            display: inline-block;
+            height: 10px;
+        }
+
+        li {
+            padding: 10px 20px;
+            list-style-type:none;
+
+            a {
+                color: rgb(52,172,152);
+                text-decoration: none;
+                padding: 5px;
+            }
+        }
+    }
+
+    div {
+        padding: 5px 20px;
+    }
+
+    hr {
+        width: 169px;
+        border-style: dashed;
+    }
+
+    button {
+        height: 30px;
+        width: 175px;
+        margin: 5px 0 30px 0;
+        font-style: italic;
+        font-size: 13px;
+        color: rgb(52,172,152);
+        border: 1px solid rgb(229,229,229);
+        border-radius: 5px;
+        background-color: white;
+        span {
+            padding: 5px;
+        }
+    }
+
+    p {
+        font-style: italic;
+        padding: 10px 20px 0 20px;
+        margin-bottom: 10px; 
+        width: 175px;
+    }
+}
