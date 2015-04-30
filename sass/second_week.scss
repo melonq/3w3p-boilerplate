@@ -61,7 +61,11 @@
 }
 
 body {
-    padding: 20px 0 0 20px;
+    padding: 20px 0;
+    .container {
+        margin: 0 auto;
+        width: 1035px;
+    }
 }
 
 aside {
@@ -126,9 +130,10 @@ aside {
         width: 175px;
     }
 
-    &::after {
+    &:after {
         content: "";
         clear: both;
+        display: block;
     }
 }
 
@@ -305,7 +310,6 @@ aside {
 footer {
     padding-top: 15px;
     width: 1035px;
-    height: 35px;
     font-size: 12px;
 
     hr {
@@ -331,5 +335,11 @@ footer {
         float: right;
         font-size: 30px;
         color: rgb(153,153,153);
+    }
+
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
     }
 }

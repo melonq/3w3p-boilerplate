@@ -65,54 +65,59 @@
 
 /* line 63, ../sass/second_week.scss */
 body {
-  padding: 20px 0 0 20px;
+  padding: 20px 0;
+}
+/* line 65, ../sass/second_week.scss */
+body .container {
+  margin: 0 auto;
+  width: 1035px;
 }
 
-/* line 67, ../sass/second_week.scss */
+/* line 71, ../sass/second_week.scss */
 aside {
   float: left;
 }
-/* line 70, ../sass/second_week.scss */
+/* line 74, ../sass/second_week.scss */
 aside a.logo {
   padding: 15px;
 }
-/* line 72, ../sass/second_week.scss */
+/* line 76, ../sass/second_week.scss */
 aside a.logo img {
   width: 150px;
 }
-/* line 77, ../sass/second_week.scss */
+/* line 81, ../sass/second_week.scss */
 aside ul {
   padding-left: 0px;
   margin-top: 10px;
   font-size: 22px;
 }
-/* line 82, ../sass/second_week.scss */
+/* line 86, ../sass/second_week.scss */
 aside ul span {
   display: inline-block;
   height: 10px;
 }
-/* line 87, ../sass/second_week.scss */
+/* line 91, ../sass/second_week.scss */
 aside ul li {
   padding: 10px 20px;
   list-style-type: none;
 }
-/* line 91, ../sass/second_week.scss */
+/* line 95, ../sass/second_week.scss */
 aside ul li a {
   color: #34ac98;
   text-decoration: none;
   padding: 5px;
 }
-/* line 99, ../sass/second_week.scss */
+/* line 103, ../sass/second_week.scss */
 aside div {
   padding: 5px 20px;
 }
-/* line 103, ../sass/second_week.scss */
+/* line 107, ../sass/second_week.scss */
 aside hr {
   width: 169px;
   opacity: 0.1;
   border-style: dashed;
 }
-/* line 109, ../sass/second_week.scss */
+/* line 113, ../sass/second_week.scss */
 aside button {
   height: 30px;
   width: 175px;
@@ -123,40 +128,41 @@ aside button {
   border-radius: 5px;
   background-color: white;
 }
-/* line 118, ../sass/second_week.scss */
+/* line 122, ../sass/second_week.scss */
 aside button span {
   padding: 5px;
 }
-/* line 123, ../sass/second_week.scss */
+/* line 127, ../sass/second_week.scss */
 aside p {
   padding: 10px 20px 0 20px;
   margin-bottom: 10px;
   width: 175px;
 }
-/* line 129, ../sass/second_week.scss */
-aside::after {
+/* line 133, ../sass/second_week.scss */
+aside:after {
   content: "";
   clear: both;
+  display: block;
 }
 
-/* line 135, ../sass/second_week.scss */
+/* line 140, ../sass/second_week.scss */
 .body {
   display: inline-block;
   width: 820px;
 }
-/* line 139, ../sass/second_week.scss */
+/* line 144, ../sass/second_week.scss */
 .body .title_img {
   width: 820px;
   height: 410px;
   background: url("../images/second_week/food.jpg");
   background-size: cover;
 }
-/* line 145, ../sass/second_week.scss */
+/* line 150, ../sass/second_week.scss */
 .body .title_img label {
   float: right;
   position: relative;
 }
-/* line 150, ../sass/second_week.scss */
+/* line 155, ../sass/second_week.scss */
 .body .title_img .white_label {
   background-color: white;
   font-weight: bold;
@@ -165,7 +171,7 @@ aside::after {
   padding: 15px 30px;
   top: 240px;
 }
-/* line 159, ../sass/second_week.scss */
+/* line 164, ../sass/second_week.scss */
 .body .title_img .black_label {
   background-color: black;
   font-weight: bold;
@@ -176,7 +182,7 @@ aside::after {
   top: 290px;
   left: 202px;
 }
-/* line 170, ../sass/second_week.scss */
+/* line 175, ../sass/second_week.scss */
 .body .title_img .transparent_label {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 12px;
@@ -185,11 +191,11 @@ aside::after {
   top: 330px;
   left: 190px;
 }
-/* line 182, ../sass/second_week.scss */
+/* line 187, ../sass/second_week.scss */
 .body .thumb_through {
   height: 100px;
 }
-/* line 185, ../sass/second_week.scss */
+/* line 190, ../sass/second_week.scss */
 .body .thumb_through div {
   background-color: #eff8f7;
   color: #58bcab;
@@ -199,48 +205,48 @@ aside::after {
   padding: 30px 0 0 10px;
   border-right: solid 1px #d8efec;
 }
-/* line 194, ../sass/second_week.scss */
+/* line 199, ../sass/second_week.scss */
 .body .thumb_through div h3 {
   margin: 0;
 }
-/* line 197, ../sass/second_week.scss */
+/* line 202, ../sass/second_week.scss */
 .body .thumb_through div span {
   font-size: 14px;
 }
-/* line 201, ../sass/second_week.scss */
+/* line 206, ../sass/second_week.scss */
 .body .thumb_through div:nth-child(3) {
   background-color: #d8efec;
 }
-/* line 204, ../sass/second_week.scss */
+/* line 209, ../sass/second_week.scss */
 .body .thumb_through div:last-child {
   border-right: none;
   width: 195px;
 }
-/* line 210, ../sass/second_week.scss */
+/* line 215, ../sass/second_week.scss */
 .body div.mail {
   margin: 38px 0;
 }
-/* line 213, ../sass/second_week.scss */
+/* line 218, ../sass/second_week.scss */
 .body div.mail hr {
   opacity: 0.1;
   border-style: dashed;
 }
-/* line 218, ../sass/second_week.scss */
+/* line 223, ../sass/second_week.scss */
 .body div.mail span.icon-envelop {
   font-size: 30px;
   padding: 0 10px;
 }
-/* line 223, ../sass/second_week.scss */
+/* line 228, ../sass/second_week.scss */
 .body div.mail div.italic {
   font-size: 13px;
   display: inline-block;
   width: 55%;
 }
-/* line 229, ../sass/second_week.scss */
+/* line 234, ../sass/second_week.scss */
 .body div.mail form {
   display: inline-block;
 }
-/* line 232, ../sass/second_week.scss */
+/* line 237, ../sass/second_week.scss */
 .body div.mail form input {
   vertical-align: middle;
   height: 25px;
@@ -248,16 +254,16 @@ aside::after {
   position: relative;
   top: -5px;
 }
-/* line 240, ../sass/second_week.scss */
+/* line 245, ../sass/second_week.scss */
 .body div.mail form input[type=search] {
   margin: 0 5px;
   border-style: groove;
 }
-/* line 257, ../sass/second_week.scss */
+/* line 262, ../sass/second_week.scss */
 .body ul {
   padding: 0;
 }
-/* line 260, ../sass/second_week.scss */
+/* line 265, ../sass/second_week.scss */
 .body ul li {
   list-style-type: none;
   display: inline-block;
@@ -265,71 +271,76 @@ aside::after {
   margin: 0 17px;
   vertical-align: top;
 }
-/* line 268, ../sass/second_week.scss */
+/* line 273, ../sass/second_week.scss */
 .body ul li img {
   width: 100%;
   height: 120px;
   border: 1px solid #e2e2e2;
   padding: 8px;
 }
-/* line 275, ../sass/second_week.scss */
+/* line 280, ../sass/second_week.scss */
 .body ul li p {
   font-size: 13px;
 }
-/* line 279, ../sass/second_week.scss */
+/* line 284, ../sass/second_week.scss */
 .body ul li a {
   color: #34ac98;
   text-decoration: none;
 }
-/* line 284, ../sass/second_week.scss */
+/* line 289, ../sass/second_week.scss */
 .body ul li div {
   color: #a7a7a7;
 }
-/* line 286, ../sass/second_week.scss */
+/* line 291, ../sass/second_week.scss */
 .body ul li div a {
   color: #34ac98;
   font-size: 13px;
   vertical-align: top;
   border-bottom: 1px dashed #a7a7a7;
 }
-/* line 295, ../sass/second_week.scss */
+/* line 300, ../sass/second_week.scss */
 .body ul li:first-child {
   margin-left: 0;
 }
-/* line 299, ../sass/second_week.scss */
+/* line 304, ../sass/second_week.scss */
 .body ul li:last-child {
   margin-right: 0;
 }
 
-/* line 305, ../sass/second_week.scss */
+/* line 310, ../sass/second_week.scss */
 footer {
   padding-top: 15px;
   width: 1035px;
-  height: 35px;
   font-size: 12px;
 }
-/* line 311, ../sass/second_week.scss */
+/* line 315, ../sass/second_week.scss */
 footer hr {
   opacity: 0.3;
   border-style: groove;
   margin: 20px 0;
 }
-/* line 317, ../sass/second_week.scss */
+/* line 321, ../sass/second_week.scss */
 footer .left {
   line-height: 18px;
   float: left;
 }
-/* line 321, ../sass/second_week.scss */
+/* line 325, ../sass/second_week.scss */
 footer .left span {
   color: #34ac98;
 }
-/* line 325, ../sass/second_week.scss */
+/* line 329, ../sass/second_week.scss */
 footer .left .copyright {
   color: #a7a7a7;
 }
-/* line 330, ../sass/second_week.scss */
+/* line 334, ../sass/second_week.scss */
 footer .right {
   float: right;
   font-size: 30px;
   color: #999999;
+}
+/* line 340, ../sass/second_week.scss */
+footer:after {
+  content: "";
+  clear: both;
+  display: block;
 }
