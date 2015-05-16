@@ -322,6 +322,7 @@ ul#filters {
 	width:100%;
 }
 .simple-out {
+	border-top: solid 1px #cecece;
 	padding: 0.8em;
 }
 .simple-out h4{
